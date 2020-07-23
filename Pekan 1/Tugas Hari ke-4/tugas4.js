@@ -16,6 +16,7 @@ while(index>=2) {
     }
     index--;
 }
+console.log(`\n`);
 
 
 
@@ -38,6 +39,8 @@ for (nilai=1; nilai<=20; nilai++) {
         
     }
 }
+console.log(`\n`);
+
 
 
 
@@ -53,6 +56,8 @@ for (baris = 1; baris <= batas; baris++) {
     empty += '#';
     console.log(empty);
 }
+console.log(`\n`);
+
 
 
 
@@ -62,7 +67,7 @@ for (baris = 1; baris <= batas; baris++) {
 console.log(`\n -------- dibawah ini adalah jawaban soal keempat -------`);
 var kalimat="saya sangat senang belajar javascript";
 var res = kalimat.split(" ");
-console.log(res);
+console.log(`${res} \n`);
 
 
 
@@ -74,7 +79,10 @@ console.log(res);
 // Jawaban Soal 5
 console.log(`\n -------- dibawah ini adalah jawaban soal kelima -------`);
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
-console.log(daftarBuah.sort());
+daftarBuah = daftarBuah.sort();
+for (let index=0; index<=daftarBuah.length-1; index++) {
+    console.log(daftarBuah[index]);
+}
 
 
 console.log(`\n \n \n------ Alhamdulillah ------\n \n \n`);
