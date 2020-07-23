@@ -16,7 +16,7 @@ while(index>=2) {
     }
     index--;
 }
-console.log(`\n`);
+console.log(`\n `);
 
 
 
@@ -67,7 +67,8 @@ console.log(`\n`);
 console.log(`\n -------- dibawah ini adalah jawaban soal keempat -------`);
 var kalimat="saya sangat senang belajar javascript";
 var res = kalimat.split(" ");
-console.log(`${res} \n`);
+console.log(res);
+
 
 
 
