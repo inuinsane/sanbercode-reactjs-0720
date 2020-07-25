@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pekan 1</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Form Pembelian Buah</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <td>
+                        <strong>Nama Pelanggan</strong> 
+                    </td>
+                    <td>
+                        <input type="text" name="nama_pelanggan" id="nama_pelanggan" style="margin-left: 30px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: bottom;">
+                        <strong> Daftar Item </strong>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="semangka" id="semangka" style="margin-left: 30px;"> Semangka
+                        <br>
+                        <input type="checkbox" name="jeruk" id="jeruk" style="margin-left: 30px;"> Jeruk
+                        <br>
+                        <input type="checkbox" name="nanas" id="nanas" style="margin-left: 30px;"> Nanas
+                        <br>
+                        <input type="checkbox" name="salak" id="salak" style="margin-left: 30px;"> Salak
+                        <br>
+                        <input type="checkbox" name="anggur" id="anggur" style="margin-left: 30px;"> Anggur
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <button>Kirim</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    .card {
+        align-self: center;
+        border: 1px solid black;
+        margin: 30px auto;
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .card h1 {
+        text-align: center;
+    }
+    .card .table {
+        align-items: center;
+        padding: 15px;
+    }
+
+    td {
+        margin-bottom: 3px;
+    }
+
+    .card button {
+        border-radius: 15px;
+        background-color: white;
+    }
+
+</style>
